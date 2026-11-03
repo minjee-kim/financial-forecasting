@@ -13,9 +13,9 @@ The study uses historical daily SPY ETF price and volume data.
 
 The prediction target is the next-day log return:
 
-\[
+$$
 r_{t+1}=\log(P_{t+1}/P_t).
-\]
+$$
 
 Predictors include lagged returns, rolling volatility, momentum, volume changes, and moving-average deviations.
 
