@@ -12,6 +12,8 @@ Predicting next-day SPY ETF log returns using historical price and volume data (
 
 The models use 14 candidate price- and volume-based features, a chronological 60/20/20 split, and five-fold time-series cross-validation for hyperparameter tuning.
 
+![SPY 5-day and 20-day rolling momentum](figures/rolling_momentum.svg)
+
 ## Results
 
 ![Validation out-of-sample R-squared by model](figures/validation_oos_r2.svg)
