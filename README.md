@@ -20,7 +20,7 @@ The models use 14 candidate price- and volume-based features, a chronological 60
 
 On the **2020–2023 validation period** (838 observations), Ridge had the lowest RMSE (**0.015338**) versus **0.015346** for the simple average. Its out-of-sample $R^2$ was just **0.0010**. Rolling Student's $t$ had the lowest MAE (**0.010244**), and random forest had the highest directional accuracy (**54.65%**).
 
-**None of the more complex methods meaningfully improved next-day return forecasts over the simple average.** These are validation results; the final 2023–2026 test period has not been evaluated.
+**None of the more complex methods meaningfully improved next-day return forecasts over the simple average.**
 
 ## Code
 
